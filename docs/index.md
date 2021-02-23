@@ -7,7 +7,7 @@
 ## Introduction
 ---
 
-Hello to you dear reader and welcome to a brief introduction about _myself_; if by some chance you have stumbled upon this as a relic of a long lost civilization, Howdy fella! (that should confuse 'em).
+Hello to you dear reader and welcome to a brief introduction about _myself_.
 
 I am your regular ol' Computing Science student, name's Andrei Spiridon (s1027022; _hope these don't work as social security numbers_). As any other 21 year old terrified of what the future holds amid a full-blown pandemic crisis, I tend to drown my worries in endless [Youtube videos](https://www.youtube.com/watch?v=dQw4w9WgXcQ), video games and the likes.
 
