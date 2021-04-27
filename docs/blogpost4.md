@@ -40,6 +40,8 @@ res62: Long = 45
 ```
 We get that there are 45 records in this dataset that have null values instead of coordinates. I used ```addrDF.filter( $"X_COORD".isNull ).show(45,false)``` in order to see all of these problematic records. The next step to take is choosing how to deal with these records. In some cases, it is fine to just ignore them especially when, as in this case, they represent only a very small part of the dataset (45/~10000 in this case); some other times, one should put in more effort and try to infer correct values by looking at the records with real values, but this is highly dependent on how the data you are working with is built and whether it can be inferred.
 
+#### Dealing with different data formats
+
 Something important to note is that different countries use different ways of writing their numbers, and I'm talking specifically about whether you us the comma for floating point numbers or for numbers bigger than 1000 (as in, writing 1,000 or 1.000 for one thousand). In our case, the Netherlands uses a comma for the floats specifically, so a function to convert those was needed.
 ```s
 import java.text.NumberFormat
@@ -68,5 +70,5 @@ For the final part of this first notebook, we explored ways of figuring out what
 
 ### Conclusion
 ---
-As last week, this was a rather pleasant experience and while I cannot say that I have an in-depth understanding of all that was discussed in the notebooks(such as the query explanation in part A), I believe I have understood most concepts to a level at which I can use them myself and succeed while doing so.
+As last week, this was a rather pleasant experience and while I cannot say that I have an in-depth understanding of all that was discussed in the notebooks (such as the query explanation in part A), I believe I have understood most concepts to a level at which I can use them myself and succeed while doing so.
 
