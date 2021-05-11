@@ -11,5 +11,6 @@ Please use one of the following links to see assignments:
   * [Assignment 2](blogpost2.md)
   * [Assignment 3](blogpost3.md)
   * [Assignment 4](blogpost4.md)
+  * [Assignment 5](blogpost5.md)
 
 
